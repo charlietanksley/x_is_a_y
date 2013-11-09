@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+
+    <!-- template stolen from https://github.com/csswizardry/vanilla/blob/master/index.html -->
+    <title>X is a Y</title>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+</head>
+<body>
+
+  <form class="pure-form pure-form-stacked" action="/assign" method="post">
+    <fieldset>
+      <legend>Assign</legend>
+
+      <div class="pure-g-r">
+        <div class="pure-u-1-2">
+          <label for="x">List of the Xs</label>
+          <textarea id="x" name="x"></textarea>
+        </div>
+
+        <div class="pure-u-1-2">
+          <label for="y">Ys</label>
+          <textarea id="y" name="y"></textarea>
+        </div>
+      </div>
+
+      <button type="submit" class="pure-button pure-button-primary">Submit</button>
+    </fieldset>
+  </form>
+</body>
+</html>
