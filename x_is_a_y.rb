@@ -1,6 +1,5 @@
 require_relative 'assignments'
 require 'sinatra'
-require 'pry'
 
 get '/' do
   erb :index
